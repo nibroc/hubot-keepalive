@@ -2,7 +2,7 @@
 
 A script that has Hubot periodically message itself so connections (namely Slack) don't time out.
 
-See [`src/keepalive.coffee`](src/keepalive.coffee) for full documentation.
+See [`src/keepalive.coffee`](src/keepalive.coffee) for full documentation on usage and configuration.
 
 ## Installation
 
