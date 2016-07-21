@@ -1,0 +1,48 @@
+{
+  "name": "hubot-keepalive",
+  "description": "A script that has Hubot periodically message itself so connections (namely Slack) don't time out",
+  "version": "0.0.0",
+  "author": "Corbin Hughes <hughes.corbin@gmail.com>",
+  "license": "MIT",
+
+  "keywords": "hubot, hubot-scripts, timeout, keepalive, ping, pong, keep-alive, slack, hubot-slack-adapter",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nibroc/hubot-keepalive.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/nibroc/hubot-keepalive/issues"
+  },
+
+  "dependencies": {
+  },
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "devDependencies": {
+    "hubot-test-helper": "^1.3.0",
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0",
+    "cron": "1.1.0"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
