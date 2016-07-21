@@ -1,7 +1,7 @@
 {
   "name": "hubot-keepalive",
   "description": "A script that has Hubot periodically message itself so connections (namely Slack) don't time out",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Corbin Hughes <hughes.corbin@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, timeout, keepalive, ping, pong, keep-alive, slack, hubot-slack-adapter",
