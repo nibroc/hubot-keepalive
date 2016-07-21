@@ -5,6 +5,9 @@
 #   HUBOT_KEEPALIVE_CRON - The cron pattern for how often the keepalive message will be sent.
 #                          By default, the message will be sent every 10 minutes.
 #
+# Dependencies
+#   This script uses cron (the npm dependency, not the common Unix utility) version 1.1.x.
+#
 # Author:
 #   Corbin Hughes <hughes.corbin@gmail.com>
 

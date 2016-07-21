@@ -30,7 +30,7 @@
     "mocha": "^2.1.0",
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0",
-    "cron": "1.1.0"
+    "cron": "~1.1.0"
   },
   "main": "index.coffee",
   "scripts": {

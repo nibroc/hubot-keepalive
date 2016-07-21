@@ -6,17 +6,9 @@ See [`src/keepalive.coffee`](src/keepalive.coffee) for full documentation.
 
 ## Installation
 
-In hubot project repo, run:
+In hubot project repo, add `hubot-keepalive` and `cron` to your `packages.json`, `npm install`,
+then add `hubot-keepalive` to your `external-scripts.json`.
 
-`npm install hubot-keepalive --save`
-
-Then add **hubot-keepalive** to your `external-scripts.json`:
-
-```json
-[
-  "hubot-keepalive"
-]
-```
 # Supported configuration
 
 Currently this script is only tested on Slack as the purpose of this script is to work around
